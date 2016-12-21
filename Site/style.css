@@ -1,0 +1,22 @@
+.body{
+	text-align: center;
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+.navbar{
+	margin-bottom: 0px !important;
+}
+
+.tablecolor {
+	background-color: #EDDF9A;
+	border: 1px solid black;
+}
+
+td{
+	width: 25%;
+	border:2px solid #D3C580;
+}
