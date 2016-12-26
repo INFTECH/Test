@@ -32,7 +32,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Вход</a></li>
-            <li><a href="#">Регистрация</a></li>
+            <li><a href="#myModal" role="button" data-toggle="modal" >Регистрация</a></li>
             <li class="dropdown">
             </li>
           </ul>
@@ -58,36 +58,94 @@
       </tr>
     </table>
     <div class="main">
-    <h3 class="p">Услуги нашей компании:</h3>
-    <table class="uslugi">
-    <tr>
-      <td><img src="meb.jpg" width="50%" height="50%"></td>
-      <td><h1 class="coll1 left">Мебельная перевозка в Минске</h1><h1 class="intable coll left">Вывоз старых конструкций, а также помощь в офисном и квартирном переезде. У нас вы можете заказать услугу профессионального монтажа и демонтажа, а также упаковку любых изделий</h1></td>
-      </tr>
-      <tr>
-      <td><h1 class="coll1 right">Переезд в Минске</h1><h1 class="intable coll right">Офис, дача, квартира. Мы осуществляем полноценный переезд под ключ, освобождая клиентов от всех хлопот и проблем, связанных с перевозками. Мы аккуратно и быстро перевезем всю мебель, хрупкие и бьющиеся предметы, технику, так же осуществляя после уборку помещений</h1></td>
-      <td><img src="office.jpg"></td>
-      </tr>
-      <tr>
-        <td><img src="piano.jpg"></td>
-        <td><h1 class="coll1 left">Быстрая и безопасная перевозка предметов быта</h1><h1 class="intable coll left">Домашних принадлежностей, бытовой техники, компьютерной и цифровой техники, специализированных инструментов, например, музыкальных, а также домашнего оборудования</h1></td>
-      </tr>
-      <tr>
-      <td><h1 class="coll1 right">Стройматериал</h1><h1 class="intable coll right">Организация перевозок строительных материалов, а также отделочных изделий при максимальной длине в 6 метров</h1></td>
-      <td><img src="stroi.jpg"></td>
-      </tr>
-      <tr>
-        <td><img src="tam.jpg"></td>
-        <td><h1 class="coll1 left">Перевозка комерции</h1><h1 class="intable coll left">Осуществляем перевозку коммерческих товаров и продукции – на таможню, в складские помещения, перевозка продукции по торговым точкам</h1></td>
-      </tr>
-      <tr>
-        <td><h1 class="coll1 right">Мусор</h1><h1 class="intable right coll">Вывоз строительного мусора</h1></td>
-              <td><img src="mus.jpg"></td>
-      </tr>
-       </table>
-          </div>
+      <h3 class="p">Услуги нашей компании:</h3>
+      <table class="uslugi">
+        <tr>
+          <td><img src="meb.jpg" width="50%" height="50%"></td>
+          <td><h1 class="coll1 left">Мебельная перевозка в Минске</h1><h1 class="intable coll left">Вывоз старых конструкций, а также помощь в офисном и квартирном переезде. У нас вы можете заказать услугу профессионального монтажа и демонтажа, а также упаковку любых изделий</h1></td>
+        </tr>
+        <tr>
+          <td><h1 class="coll1 right">Переезд в Минске</h1><h1 class="intable coll right">Офис, дача, квартира. Мы осуществляем полноценный переезд под ключ, освобождая клиентов от всех хлопот и проблем, связанных с перевозками. Мы аккуратно и быстро перевезем всю мебель, хрупкие и бьющиеся предметы, технику, так же осуществляя после уборку помещений</h1></td>
+          <td><img src="office.jpg"></td>
+        </tr>
+        <tr>
+          <td><img src="piano.jpg"></td>
+          <td><h1 class="coll1 left">Быстрая и безопасная перевозка предметов быта</h1><h1 class="intable coll left">Домашних принадлежностей, бытовой техники, компьютерной и цифровой техники, специализированных инструментов, например, музыкальных, а также домашнего оборудования</h1></td>
+        </tr>
+        <tr>
+          <td><h1 class="coll1 right">Стройматериал</h1><h1 class="intable coll right">Организация перевозок строительных материалов, а также отделочных изделий при максимальной длине в 6 метров</h1></td>
+          <td><img src="stroi.jpg"></td>
+        </tr>
+        <tr>
+          <td><img src="tam.jpg"></td>
+          <td><h1 class="coll1 left">Перевозка комерции</h1><h1 class="intable coll left">Осуществляем перевозку коммерческих товаров и продукции – на таможню, в складские помещения, перевозка продукции по торговым точкам</h1></td>
+        </tr>
+        <tr>
+          <td><h1 class="coll1 right">Мусор</h1><h1 class="intable right coll">Вывоз строительного мусора</h1></td>
+          <td><img src="mus.jpg"></td>
+        </tr>
+      </table>
     </div>
+  </div>
+  
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Заголовок модального окна -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">Регистрация</h4>
+        </div>
+        <!-- Основное содержимое модального окна -->
+        <div class="modal-body">
+          <div class= field >
+            <label for= "login">Логин:</label>
+            <input type= "text" name="login" placeholder="kadac28" class="logininput" id= "login" >
+          </div>
+          <div class= field >
+            <label for= "pass">Пароль:</label>
+            <input type= "password" name="password" class="logininput" id= "pass">
+          </div>
+          <div class= field >
+            <label for= "repass" >Повторите пароль:</label>
+            <input type= "password" name="password" class="logininput" id= "repass">
+          </div>
+          <div class="field">
+            <label for="post"> E-mail:</label>
+            <input type="text" name="email" class="logininput" placeholder="kadac28@gmail.com" id="post" >
+          </div>
+          <div class="sex">
+            <span>  Ваш пол: </span>
+            <label for="male">Мужской</label>
+            <input type="radio" name="sex" id="male">
+            <label for="female">Женский</label>
+            <input type="radio" name="sex" id="female">
+          </div>
+          <div class="field">
+            <span>Ваш возраст:  </span>
+            <select>
+              <option>under 18</option>
+              <option>more than 18</option>
+            </select> 
+          </div>
+          <div class="about">          
+            <label for="about">О себе: </label>
+            <textarea placeholder="Немного о себе" id="about"></textarea>
+          </div>
+          <button class="registr">Регистрация</button>
+        </div>
+        <!-- Футер модального окна -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<footer class="fixblock">ПеревеземГруз - перевозчик, которому доверяют тысячи</footer>
-  </body>
+  <footer class="fixblock">ПеревеземГруз - перевозчик, которому доверяют тысячи</footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="bootstrap.js"></script>
+</body>
 </html>

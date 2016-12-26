@@ -34,7 +34,7 @@ h3{
 
 td{
 	width: 25%;
-	border:1px solid #F2F2F2;
+	border:3px solid #F2F2F2;
 } 
 
 
@@ -101,3 +101,53 @@ bottom:0px;
 	margin-top:3%;
 }
 
+.field{
+    text-align: right;
+    line-height: 30px;
+}
+
+.field label{
+    float: left;
+}
+
+.sex span{
+    float: left;
+}
+
+.sex{
+    text-align: right;
+    line-height: 25px;
+}
+
+.registr{
+    border: 2px solid grey;
+    margin-left: 36%;
+    font-size: 15px;
+    width: 150px;
+    height: 25px;
+    margin-top: 55px;
+    transition: 0.3s;
+    border-radius: 8px;
+
+}
+
+.registr:hover{
+    width: 180px;
+    height: 30px;
+    background-color: white;
+    padding: 3px;
+}
+
+.about label{
+    float: left;
+    padding-right:10px;
+}
+
+.about{
+    text-align: right;
+    line-height: 25px;  
+}
+
+textarea{
+    width: 70%;
+}
